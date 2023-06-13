@@ -31,7 +31,7 @@ bubble_sort.pack(pady=10)
 ins_sort = Button(root, text="Insertion Sort", font=("Arial", 10), command=inse_sort)
 ins_sort.pack(pady=10)
 
-sel_sort = Button(root, text="Insertion Sort", font=("Arial", 10), command=sele_sort)
+sel_sort = Button(root, text="Selection Sort", font=("Arial", 10), command=sele_sort)
 sel_sort.pack(pady=10)
 
 root.mainloop()

@@ -6,7 +6,7 @@ root = Tk()
 root.geometry("150x200")
 root.resizable(False, False)
 root.title("Sorter")
-root.iconbitmap("icon.ico")
+root.iconphoto(False, PhotoImage(file='icon.png'))
 root.config(bg="white")
 
 
